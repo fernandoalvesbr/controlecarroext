@@ -1217,7 +1217,7 @@ foreach ($abastecimentos_filtrados as $abs) {
                                             <th><a href="<?php echo urlOrdenacao('placa', $sort_col, $sort_dir, 'abastecimentos'); ?>" class="text-white text-decoration-none">Placa <?php echo $sort_col == 'placa' ? ($sort_dir == 'asc' ? '↑' : '↓') : ''; ?></a></th>
                                             <th>KM</th><th>Lts</th><th>KM/L</th>
                                             <th><a href="<?php echo urlOrdenacao('valor', $sort_col, $sort_dir, 'abastecimentos'); ?>" class="text-white text-decoration-none">Valor <?php echo $sort_col == 'valor' ? ($sort_dir == 'asc' ? '↑' : '↓') : ''; ?></a></th>
-                                            <th>Pagamento</th><th>Doc</th>
+                                            <th>Pagamento</th><th>Nf</th>
                                             <?php if($isAdmin): ?><th>Ação</th><?php endif; ?>
                                         </tr>
                                     </thead>
@@ -1286,7 +1286,7 @@ foreach ($abastecimentos_filtrados as $abs) {
                                             <th><a href="<?php echo urlOrdenacao('placa', $sort_col, $sort_dir, 'lavagens'); ?>" class="text-white text-decoration-none">Placa <?php echo $sort_col == 'placa' ? ($sort_dir == 'asc' ? '↑' : '↓') : ''; ?></a></th>
                                             <th>KM</th>
                                             <th><a href="<?php echo urlOrdenacao('valor', $sort_col, $sort_dir, 'lavagens'); ?>" class="text-white text-decoration-none">Valor <?php echo $sort_col == 'valor' ? ($sort_dir == 'asc' ? '↑' : '↓') : ''; ?></a></th>
-                                            <th>Pagamento</th><th>Doc</th>
+                                            <th>Pagamento</th><th>Nf</th>
                                             <?php if($isAdmin): ?><th>Ação</th><?php endif; ?>
                                         </tr>
                                     </thead>
